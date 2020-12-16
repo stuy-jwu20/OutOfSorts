@@ -9,10 +9,10 @@ public class Tester {
     // }
     // System.out.println();
 
-    rng = new Random(100);
-    int[] rngArray = new int[5];
+    int arraySize = (int)(Math.random() * 100);
+    int[] rngArray = new int[arraySize];
     ArrayList<Integer> rngData = new ArrayList<Integer>();
-    for (int i =  0; i < 5; i++) {
+    for (int i =  0; i < arraySize; i++) {
       rngArray[i] = (rng.nextInt() % 1000);
     }
     Sorts.bubbleSort(rngArray);
