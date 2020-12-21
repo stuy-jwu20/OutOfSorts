@@ -1,8 +1,8 @@
 import java.util.*;
 public class Tester {
   public static void main(String[]args){
-    //bubbleTester();
-    //insertionTester();
+    bubbleTester();
+    insertionTester();
     selectionTester();
   }
 
@@ -191,7 +191,7 @@ public class Tester {
   }
 
   public static void selectionTester() {
-    // bubbleSort() with unsorted and random values //
+    // selectionSort() with unsorted and random values //
 
         int testCases = (int)(Math.random() * 10000);
         int equalAmount = 0;
@@ -230,7 +230,7 @@ public class Tester {
           System.out.println("selectionSort() passed with unsorted and random values!");
         }
 
-    // bubbleSort() if length is 0 //
+    // selectionSort() if length is 0 //
 
         int[] zeroCases = new int[0];
         ArrayList<Integer> zeroData = new ArrayList<Integer>();
@@ -250,7 +250,7 @@ public class Tester {
           System.out.println("Actual: \n" + Arrays.toString(zeroCases));
         }
 
-    // bubbleSort() if length is 1 //
+    // selectionSort() if length is 1 //
 
         int singleEqualAmount = 0;
         for (int l = 0; l < testCases; l++) {
