@@ -1,7 +1,7 @@
 import java.util.*;
 public class Tester {
   public static void main(String[]args){
-    bubbleTester();
+    //bubbleTester();
     //insertionTester();
     selectionTester();
   }
@@ -190,7 +190,7 @@ public class Tester {
 
   }
 
-  public static void bubbleTester() {
+  public static void selectionTester() {
     // bubbleSort() with unsorted and random values //
 
         int testCases = (int)(Math.random() * 10000);
