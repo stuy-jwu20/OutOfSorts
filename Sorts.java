@@ -47,10 +47,10 @@ public class Sorts {
               counter--;
             }
             data[k] = currentVal;
+            k = data.length;
           }
         }
       }
-
     }
   }
 }
