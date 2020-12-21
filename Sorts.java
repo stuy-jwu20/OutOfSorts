@@ -25,7 +25,7 @@ public class Sorts {
   public static void insertionSort(int[] data){
     for (int i = 1; i < data.length && data.length > 1; i++) {
       int currentVal = data[i];
-      for (int k = 0; i < data.length; k++) {
+      for (int k = 0; k < data.length; k++) {
         if (currentVal < data[k]) {
           int counter = k;
           int toReplace = data[k];
